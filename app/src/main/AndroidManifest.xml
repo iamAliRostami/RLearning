@@ -4,15 +4,16 @@
     package="com.leon.r_learning">
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:name=".MyApplication"
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RLearning"
-        android:fullBackupContent="@xml/backup_descriptor">
+        android:theme="@style/Theme.RLearning">
+        <activity android:name=".activities.SectionActivity"></activity>
         <activity android:name=".activities.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

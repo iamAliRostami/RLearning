@@ -15,8 +15,8 @@
 
     <color name="colorAccent">#021bbe</color>
 
-    <color name="colorPrimary">#fcfafa</color>
-    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimary">#FFBB86FC</color>
+    <color name="colorPrimaryDark">#FF6200EE</color>
     <color name="question_correct">#34fc15</color>
 
     <color name="correct">#1dbc01</color>
