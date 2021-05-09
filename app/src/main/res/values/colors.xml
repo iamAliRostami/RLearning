@@ -11,4 +11,23 @@
 
     <color name="text_color_dark">#413f44</color>
     <color name="text_color_light">#E6E6E6</color>
+
+
+    <color name="colorAccent">#021bbe</color>
+
+    <color name="colorPrimary">#fcfafa</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="question_correct">#34fc15</color>
+
+    <color name="correct">#1dbc01</color>
+    <color name="neutral">#0a1b97</color>
+    <color name="wrong">#d60000</color>
+
+    <color name="course1">#00a4d6</color>
+    <color name="course2">#d70661</color>
+    <color name="course3">#ff9226</color>
+    <color name="course4">#33bf00</color>
+    <color name="course5">#b300ff</color>
+    <color name="course6">#0fd492</color>
+
 </resources>

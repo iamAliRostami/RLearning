@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">آموزش</string>
+    <string name="title_tools">ابزار</string>
+    <string name="title_profile">حساب کاربری</string>
+    <string name="title_chat">گفتگو</string>
+    <string name="title_explore">گردش</string>
 </resources>
