@@ -1,10 +1,3 @@
-/*
- *  Copyright (c) 2018 Gabriele Corso
- *
- *  Distributed under the MIT software license, see the accompanying
- *  file LICENSE or http://www.opensource.org/licenses/mit-license.php.
- */
-
 package com.leon.r_learning.adapters;
 
 import android.annotation.SuppressLint;
@@ -15,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-
 import com.leon.r_learning.R;
 import com.leon.r_learning.layout.FitDoughnut;
 import com.leon.r_learning.tables.Course;
@@ -24,10 +16,9 @@ import java.util.List;
 
 import static com.leon.r_learning.utils.Preferences.CoursesColors;
 
-
 public class CoursesProgGridAdapter extends BaseAdapter {
 
-    private List<Course> courses;
+    private final List<Course> courses;
 
     public CoursesProgGridAdapter(List<Course> courses) {
         this.courses = courses;
@@ -54,19 +45,19 @@ public class CoursesProgGridAdapter extends BaseAdapter {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View view = inflater.inflate(R.layout.item_courseprog, parent, false);
 
-        TextView tvCourseTitle = view.findViewById(R.id.tvtitle);
-        tvCourseTitle.setText(courses.get(position).getTitle());
+        TextView textViewCourseTitle = view.findViewById(R.id.text_view_title);
+        textViewCourseTitle.setText(courses.get(position).getTitle());
 
-        FitDoughnut dCourse = view.findViewById(R.id.doughnut);
-        TextView tvCoursePerc = view.findViewById(R.id.tvpercentage);
+        FitDoughnut fitDoughnutCourse = view.findViewById(R.id.fit_doughnut);
+        TextView textViewCoursePercent = view.findViewById(R.id.text_view_percentage);
 
-        dCourse.setColorPrimary(Color.parseColor(CoursesColors[position]));
-        dCourse.animateSetPercent((float) courses.get(position).getPercentageProgress());
+        fitDoughnutCourse.setColorPrimary(Color.parseColor(CoursesColors[position]));
+        fitDoughnutCourse.animateSetPercent((float) courses.get(position).getPercentageProgress());
         String t = courses.get(position).getPercentageProgress() + "%";
-        tvCoursePerc.setText(t);
+        textViewCoursePercent.setText(t);
 
-        tvCourseTitle.setTextColor(Color.parseColor(CoursesColors[position]));
-        tvCoursePerc.setTextColor(Color.parseColor(CoursesColors[position]));
+        textViewCourseTitle.setTextColor(Color.parseColor(CoursesColors[position]));
+        textViewCoursePercent.setTextColor(Color.parseColor(CoursesColors[position]));
 
         return view;
     }

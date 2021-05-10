@@ -1,51 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="1"
     android:orientation="horizontal">
 
     <com.leon.r_learning.layout.FitDoughnut
-        android:id="@+id/doughnut"
+        android:id="@+id/fit_doughnut"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/large_dp"
+        android:layout_marginTop="@dimen/large_dp"
+        android:layout_marginRight="@dimen/large_dp"
+        android:layout_marginBottom="@dimen/medium_dp"
         app:fdColorPrimary="@color/course1" />
 
     <TextView
-        android:id="@+id/tvpercentage"
+        android:id="@+id/text_view_percentage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/doughnut"
-        android:layout_alignTop="@+id/doughnut"
-        android:layout_alignRight="@+id/doughnut"
-        android:layout_alignBottom="@+id/doughnut"
+        android:layout_alignLeft="@+id/fit_doughnut"
+        android:layout_alignTop="@+id/fit_doughnut"
+        android:layout_alignRight="@+id/fit_doughnut"
+        android:layout_alignBottom="@+id/fit_doughnut"
         android:fontFamily="casual"
         android:gravity="center"
-        android:text="75%"
         android:textAlignment="center"
         android:textColor="@color/course1"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
 
     <TextView
-        android:id="@+id/tvtitle"
+        android:id="@+id/text_view_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/doughnut"
+        android:layout_below="@+id/fit_doughnut"
         android:layout_centerHorizontal="true"
         android:fontFamily="casual"
         android:gravity="center"
-        android:text="Course 1"
         android:textAlignment="center"
         android:textColor="@color/course1"
-        android:textSize="20sp"
+        android:textSize="@dimen/text_size_medium"
         android:textStyle="bold" />
 
 </RelativeLayout>
