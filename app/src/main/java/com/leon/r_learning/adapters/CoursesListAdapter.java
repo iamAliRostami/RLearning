@@ -60,7 +60,7 @@ public class CoursesListAdapter extends BaseAdapter {
         TextView tvCourseTitle = view.findViewById(R.id.course_title);
         tvCourseTitle.setText(courses.get(position).getTitle());
 
-        LessonsHorizAdapter lessonsAdapter = new LessonsHorizAdapter(context, courses.get(position).getLessons(), courses.get(position).getId());
+        LessonsHorizontalAdapter lessonsAdapter = new LessonsHorizontalAdapter(context, courses.get(position).getLessons(), courses.get(position).getId());
         HorizontalGridView lessonsView = view.findViewById(R.id.gridlessons);
         lessonsView.setAdapter(lessonsAdapter);
 
