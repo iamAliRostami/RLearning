@@ -4,16 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.leon.r_learning.R;
-import com.leon.r_learning.databinding.ActivitySectionBinding;
+import com.leon.r_learning.databinding.ActivityQuizBinding;
 
-public class SectionActivity extends AppCompatActivity {
-    ActivitySectionBinding binding;
+public class QuizActivity extends AppCompatActivity {
+    ActivityQuizBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivitySectionBinding.inflate(getLayoutInflater());
+        binding = ActivityQuizBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
     }
 }

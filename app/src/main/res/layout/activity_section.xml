@@ -14,7 +14,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/medium_dp"
         android:layout_marginBottom="@dimen/low_dp"
-        android:fontFamily="casual"
         android:paddingLeft="@dimen/low_dp"
         android:paddingRight="@dimen/low_dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Caption"
@@ -64,7 +63,6 @@
                 android:layout_marginLeft="@dimen/huge_dp"
                 android:layout_marginTop="@dimen/huge_dp"
                 android:layout_marginRight="@dimen/huge_dp"
-                android:fontFamily="casual"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textSize="@dimen/text_size_huge" />
@@ -85,11 +83,11 @@
                 android:id="@+id/text_view_section"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:fontFamily="casual"
+                android:layout_marginLeft="@dimen/huge_dp"
+                android:layout_marginRight="@dimen/huge_dp"
                 android:lineSpacingExtra="4sp"
-                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+                tools:ignore="RtlHardcoded" />
 
         </LinearLayout>
     </ScrollView>

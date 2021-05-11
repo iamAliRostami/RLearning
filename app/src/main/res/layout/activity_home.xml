@@ -6,7 +6,7 @@
     tools:context=".activities.HomeActivity">
 
     <ListView
-        android:id="@+id/courses_list"
+        android:id="@+id/list_courses"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/navigation" />
