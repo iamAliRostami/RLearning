@@ -1,24 +1,18 @@
 package com.leon.r_learning.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.leon.r_learning.MyApplication;
 import com.leon.r_learning.adapters.CoursesListAdapter;
 import com.leon.r_learning.databinding.ActivityHomeBinding;
 import com.leon.r_learning.tables.Course;
 import com.leon.r_learning.tables.Lesson;
-import com.leon.r_learning.utils.ReadFile;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
     ActivityHomeBinding binding;

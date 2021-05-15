@@ -1,10 +1,3 @@
-/*
- *  Copyright (c) 2018 Gabriele Corso
- *
- *  Distributed under the MIT software license, see the accompanying
- *  file LICENSE or http://www.opensource.org/licenses/mit-license.php.
- */
-
 package com.leon.r_learning.layout;
 
 import android.animation.Animator;
@@ -25,6 +18,7 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;
 
 import com.leon.r_learning.R;
+
 
 // from https://github.com/tehmantra/FitDoughnut
 

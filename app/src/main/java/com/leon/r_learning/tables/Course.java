@@ -1,8 +1,6 @@
 package com.leon.r_learning.tables;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
 
 public class Course {
     private int id;

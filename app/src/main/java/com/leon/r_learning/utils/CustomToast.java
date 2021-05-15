@@ -2,7 +2,6 @@ package com.leon.r_learning.utils;
 
 import android.widget.Toast;
 
-
 import com.leon.r_learning.MyApplication;
 
 import es.dmoral.toasty.Toasty;

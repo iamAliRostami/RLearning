@@ -1,8 +1,8 @@
 package com.leon.r_learning.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.leon.r_learning.databinding.ActivityQuizBinding;
 

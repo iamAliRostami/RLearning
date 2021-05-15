@@ -1,9 +1,7 @@
 package com.leon.r_learning;
 
-import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.graphics.Typeface;
 
 import androidx.multidex.MultiDex;
