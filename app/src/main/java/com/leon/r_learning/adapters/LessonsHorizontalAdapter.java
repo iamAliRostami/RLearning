@@ -93,7 +93,7 @@ public class LessonsHorizontalAdapter extends
 //                context.startActivity(intent);
 //            }
             Intent intent = new Intent(context, SectionActivity.class);
-            intent.putExtra(BundleEnum.SECTION_NUMBER.getValue(), 0);
+            intent.putExtra(BundleEnum.SECTION_NUMBER.getValue(), 1);
             intent.putExtra(BundleEnum.LESSON_ID.getValue(), lessons.get(position).getId());
             intent.putExtra(BundleEnum.COURSE_ID.getValue(), courseId);
             context.startActivity(intent);

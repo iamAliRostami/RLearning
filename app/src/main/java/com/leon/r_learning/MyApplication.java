@@ -16,7 +16,7 @@ public class MyApplication extends Application {
     public static final int TOAST_TEXT_SIZE = 20;
     public static final int LESSON_NUMBER = 3;
     public static final int COURSE_NUMBER = 4;
-    public static final int[] SECTION_NUMBER = {3, 2, 3, 3};
+    public static final int[][] SECTION_NUMBER = {{4}, {3}, {4, 4}};
     public static final String[] COURSES = {
             "Key Concepts",
             "Cyber Attacks",
@@ -25,15 +25,11 @@ public class MyApplication extends Application {
     public static final String[][] LESSONS = {
             {"Passwords"},
             {"Viruses"},
-            {"VPN", "GDPR"}
+            {"GDPR", "VPN"}
     };
 
     public static String SEPARATOR = "<<-->>";
 
-    public static Bitmap bitmapSelectedImage;
-    public static int POSITION = -1;
-    public static String fileName;
-    public static boolean focusOnEditText = false;
     static Context appContext;
 
     public static Context getContext() {

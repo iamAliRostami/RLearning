@@ -36,7 +36,6 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     void initialize() {
-        Log.e("file", ReadFile.readFile(activity, "l1s1.txt"));
         for (int i = 0; i < MyApplication.LESSON_NUMBER; i++) {
             ArrayList<String> arrayListLesson = new ArrayList<>(Arrays.asList(MyApplication.LESSONS[i]));
             ArrayList<Lesson> lessons = new ArrayList<>();
