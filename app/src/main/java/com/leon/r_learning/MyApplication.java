@@ -13,21 +13,23 @@ import es.dmoral.toasty.Toasty;
 
 public class MyApplication extends Application {
     public static final String FONT_NAME = "font/iranian_sans.ttf";
-    public static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 10;
-    public static final long MIN_TIME_BW_UPDATES = 10000;
-    public static final long FASTEST_INTERVAL = 5;
-    public static final int GPS_CODE = 1231;
-    public static final int REQUEST_NETWORK_CODE = 1232;
-    public static final int REQUEST_WIFI_CODE = 1233;
-    public static final int CAMERA_REQUEST = 1888;
-    public static final int GALLERY_REQUEST = 1889;
-    public static final int CAMERA = 1446;
-    public static final int REPORT = 1445;
-    public static final int NAVIGATION = 1903;
-    public static final int DESCRIPTION = 1909;
     public static final int TOAST_TEXT_SIZE = 20;
-    public static final int CARRIER_PRIVILEGE_STATUS = 901;
-    public static final int READ_PHONE_STATE = 911;
+    public static final int LESSON_NUMBER = 3;
+    public static final int COURSE_NUMBER = 4;
+    public static final int[] SECTION_NUMBER = {3, 2, 3, 3};
+    public static final String[] COURSES = {
+            "Key Concepts",
+            "Cyber Attacks",
+            "Privacy"
+    };
+    public static final String[][] LESSONS = {
+            {"Passwords"},
+            {"Viruses"},
+            {"VPN", "GDPR"}
+    };
+
+    public static String SEPARATOR = "<<-->>";
+
     public static Bitmap bitmapSelectedImage;
     public static int POSITION = -1;
     public static String fileName;

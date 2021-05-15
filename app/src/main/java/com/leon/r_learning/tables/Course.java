@@ -1,11 +1,13 @@
 package com.leon.r_learning.tables;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Course {
     private int id;
     private String title;
-    private List<Lesson> lessons;
+    private ArrayList<Lesson> lessons;
     private int percentageProgress;
 
     public Course(int id, String title) {
@@ -13,7 +15,7 @@ public class Course {
         this.title = title;
     }
 
-    public Course(int id, String title, List<Lesson> lessons) {
+    public Course(int id, String title, ArrayList<Lesson> lessons) {
         this.id = id;
         this.title = title;
         this.lessons = lessons;
@@ -40,11 +42,11 @@ public class Course {
         this.title = title;
     }
 
-    public List<Lesson> getLessons() {
+    public ArrayList<Lesson> getLessons() {
         return lessons;
     }
 
-    public void setLessons(List<Lesson> lessons) {
+    public void setLessons(ArrayList<Lesson> lessons) {
         this.lessons = lessons;
     }
 

@@ -2,34 +2,34 @@ package com.leon.r_learning.tables;
 
 public class Question {
 
-    private int nquestion;
-    private int sectionid;
+    private int questionNumber;
+    private int sectionId;
     private int[] results;
     private String title;
     private String[] answers;
 
 
-    public Question(int nquestion, int sectionid, String title, String[] answers) {
-        this.nquestion = nquestion;
-        this.sectionid = sectionid;
+    public Question(int questionNumber, int sectionId, String title, String[] answers) {
+        this.questionNumber = questionNumber;
+        this.sectionId = sectionId;
         this.title = title;
         this.answers = answers;
     }
 
-    public int getNquestion() {
-        return nquestion;
+    public int getQuestionNumber() {
+        return questionNumber;
     }
 
-    public void setNquestion(int nquestion) {
-        this.nquestion = nquestion;
+    public void setQuestionNumber(int questionNumber) {
+        this.questionNumber = questionNumber;
     }
 
-    public int getSectionid() {
-        return sectionid;
+    public int getSectionId() {
+        return sectionId;
     }
 
-    public void setSectionid(int sectionid) {
-        this.sectionid = sectionid;
+    public void setSectionId(int sectionId) {
+        this.sectionId = sectionId;
     }
 
     public int[] getResults() {

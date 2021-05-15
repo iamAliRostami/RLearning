@@ -1,19 +1,18 @@
 package com.leon.r_learning.tables;
 
 public class Level {
-
     private int perctot;
     private String liv;
     private int prog;
     private int tot;
-    private int[] perccourses;
+    private int[] percentCourses;
 
-    public Level(int perctot, String liv, int prog, int tot, int[] perccourses) {
+    public Level(int perctot, String liv, int prog, int tot, int[] percentCourses) {
         this.perctot = perctot;
         this.liv = liv;
         this.prog = prog;
         this.tot = tot;
-        this.perccourses = perccourses;
+        this.percentCourses = percentCourses;
     }
 
     public int getPerctot() {
@@ -48,11 +47,11 @@ public class Level {
         this.tot = tot;
     }
 
-    public int[] getPerccourses() {
-        return perccourses;
+    public int[] getPercentCourses() {
+        return percentCourses;
     }
 
-    public void setPerccourses(int[] perccourses) {
-        this.perccourses = perccourses;
+    public void setPercentCourses(int[] percentCourses) {
+        this.percentCourses = percentCourses;
     }
 }

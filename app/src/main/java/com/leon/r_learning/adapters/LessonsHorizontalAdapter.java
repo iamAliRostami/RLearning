@@ -3,6 +3,7 @@ package com.leon.r_learning.adapters;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -65,11 +66,11 @@ public class LessonsHorizontalAdapter extends
     @Override
     public void onBindViewHolder(final SimpleViewHolder holder, final int position) {
         holder.textViewLessonTitle.setText(lessons.get(position).getTitle());
-        String backgroundName = "درس" + courseId;
+        String backgroundName = "course" + courseId;
         holder.imageViewLessonIcon.setBackgroundResource(context.getResources().getIdentifier(backgroundName,
                 "drawable", context.getPackageName()));
 
-        String iconName = "z" + lessons.get(position).getId();
+        String iconName = "z" + courseId + "_" + lessons.get(position).getId();
         holder.imageViewLessonIcon.setImageResource(context.getResources().getIdentifier(iconName,
                 "drawable", context.getPackageName()));
 
@@ -78,20 +79,24 @@ public class LessonsHorizontalAdapter extends
             holder.fitDoughnut.animateSetPercent(((float) lessons.get(position).getResult() * 10) - 0.01f);
         }
 
-
         holder.itemView.setOnClickListener(v -> {
-            if (lessons.get(position).getNumberOfSections() == 0) {
-                AlertDialog.Builder alertDialog = new AlertDialog.Builder(context);
-                alertDialog.setTitle("Not available");
-                alertDialog.setMessage("Sorry, this lesson is not available yet. Try instead the lessons on Passwords, Viruses, VPN and GDPR.");
-                alertDialog.setPositiveButton("OK", (dialog, which) -> dialog.dismiss());
-                alertDialog.show();
-            } else {
-                Intent intent = new Intent(context, SectionActivity.class);
-                intent.putExtra(BundleEnum.SECTION_NUMBER.getValue(), 0);
-                intent.putExtra(BundleEnum.LESSON_ID.getValue(), lessons.get(position).getId());
-                context.startActivity(intent);
-            }
+//            if (lessons.get(position).getNumberOfSections() == 0) {
+//                AlertDialog.Builder alertDialog = new AlertDialog.Builder(context);
+//                alertDialog.setTitle("Not available");
+//                alertDialog.setMessage("Sorry, this lesson is not available yet. Try instead the lessons on Passwords, Viruses, VPN and GDPR.");
+//                alertDialog.setPositiveButton("OK", (dialog, which) -> dialog.dismiss());
+//                alertDialog.show();
+//            } else {
+//                Intent intent = new Intent(context, SectionActivity.class);
+//                intent.putExtra(BundleEnum.SECTION_NUMBER.getValue(), 0);
+//                intent.putExtra(BundleEnum.LESSON_ID.getValue(), lessons.get(position).getId());
+//                context.startActivity(intent);
+//            }
+            Intent intent = new Intent(context, SectionActivity.class);
+            intent.putExtra(BundleEnum.SECTION_NUMBER.getValue(), 0);
+            intent.putExtra(BundleEnum.LESSON_ID.getValue(), lessons.get(position).getId());
+            intent.putExtra(BundleEnum.COURSE_ID.getValue(), courseId);
+            context.startActivity(intent);
         });
     }
 

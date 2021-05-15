@@ -23,6 +23,12 @@ public class Lesson {
         this.title = title;
     }
 
+    public Lesson(int id, int courseId, String title) {
+        this.id = id;
+        this.courseId = courseId;
+        this.title = title;
+    }
+
     public Lesson(int id, String title, int result, int numberOfSections) {
         this.id = id;
         this.title = title;

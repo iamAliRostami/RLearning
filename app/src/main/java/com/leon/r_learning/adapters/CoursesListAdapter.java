@@ -9,6 +9,7 @@ package com.leon.r_learning.adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -53,11 +54,11 @@ public class CoursesListAdapter extends BaseAdapter {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View view = inflater.inflate(R.layout.item_course, parent, false);
 
-        TextView tvCourseTitle = view.findViewById(R.id.course_title);
+        TextView tvCourseTitle = view.findViewById(R.id.text_view_course_title);
         tvCourseTitle.setText(courses.get(position).getTitle());
 
         LessonsHorizontalAdapter lessonsAdapter = new LessonsHorizontalAdapter(context, courses.get(position).getLessons(), courses.get(position).getId());
-        HorizontalGridView lessonsView = view.findViewById(R.id.gridlessons);
+        HorizontalGridView lessonsView = view.findViewById(R.id.horizontal_grid_view_lessons);
         lessonsView.setAdapter(lessonsAdapter);
 
         return view;

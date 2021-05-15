@@ -77,7 +77,7 @@
                 android:layout_marginRight="@dimen/huge_dp"
                 android:layout_marginBottom="@dimen/large_dp"
                 android:adjustViewBounds="true"
-                android:src="@drawable/s10" />
+                android:src="@drawable/s1_1_0" />
 
             <TextView
                 android:id="@+id/text_view_section"
