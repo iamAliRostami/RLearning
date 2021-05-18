@@ -9,8 +9,9 @@
         android:id="@+id/list_courses"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/navigation" />
+        tools:listitem="@layout/item_course" />
+    <!--        android:layout_above="@+id/navigation" />-->
 
-    <include layout="@layout/bottom_navigation" />
+    <!--    <include layout="@layout/bottom_navigation" />-->
 
 </RelativeLayout>

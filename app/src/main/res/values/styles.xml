@@ -11,6 +11,7 @@
         <!-- Customize your theme here. -->
         <item name="android:layoutDirection">rtl</item>
         <item name="fontFamily">@font/iranian_sans</item>
+        <item name="android:windowBackground">@drawable/img_background</item>
         <item name="font">@font/iranian_sans</item>
     </style>
 

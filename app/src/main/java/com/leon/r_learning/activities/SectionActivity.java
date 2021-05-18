@@ -65,7 +65,6 @@ public class SectionActivity extends AppCompatActivity {
 
     void initializeImageViews() {
         String imageName = "s" + courseId + "_" + lessonId + "_" + sectionNumber;
-        Log.e("image", imageName);
         binding.aspectRatioImageSection.setImageResource(getResources().getIdentifier(imageName,
                 "drawable", getPackageName()));
         setOnImageViewCloseClickListener();
@@ -75,15 +74,22 @@ public class SectionActivity extends AppCompatActivity {
         } else {
             binding.imageViewNavPrevious.setOnClickListener(view -> changeSection(sectionNumber - 1));
         }
-        binding.imageViewNavNext.setOnClickListener(view -> {
-            Log.e("number 1", String.valueOf(sectionNumber));
-            Log.e("number 2", String.valueOf(MyApplication.SECTION_NUMBER[courseId - 1][lessonId - 1]));
-            if (sectionNumber < MyApplication.SECTION_NUMBER[courseId - 1][lessonId - 1]) {
+        if (sectionNumber == MyApplication.SECTION_NUMBER[courseId - 1][lessonId - 1]) {
+            binding.imageViewNavNext.setVisibility(View.GONE);
+        } else {
+            binding.imageViewNavNext.setOnClickListener(view -> {
                 changeSection(sectionNumber + 1);
-            } else {
-                startQuiz(lessonId);
-            }
-        });
+            });
+        }
+//        binding.imageViewNavNext.setOnClickListener(view -> {
+//            Log.e("number 1", String.valueOf(sectionNumber));
+//            Log.e("number 2", String.valueOf(MyApplication.SECTION_NUMBER[courseId - 1][lessonId - 1]));
+//            if (sectionNumber < MyApplication.SECTION_NUMBER[courseId - 1][lessonId - 1]) {
+//                changeSection(sectionNumber + 1);
+//            } else {
+//                startQuiz(lessonId);
+//            }
+//        });
     }
 
     void changeSection(int sectionNumber) {
