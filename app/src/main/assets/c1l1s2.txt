@@ -1,3 +1,32 @@
-Guidelines<<-->>First, choose a fairly long password (composed of at least 15-20 characters) alternating letters, both uppercase and lowercase, numbers, punctuation marks and symbols (e.g. !,?,£,$,#,% etc.). In fact, by using a sequence of characters that does not make up a meaningful word or phrase, you will discourage attempts by attackers who make attacks based on dictionaries. Such attacks are based on searching for your password in very long common word lists, or a dictionary.
- Another very important precaution is to not use words as passwords that can somehow be guessed by other people. To go a little further, do not use names of your family members, your date of birth or wedding anniversary or other data that is easily traceable to you.
- It is also a good idea to constantly update your passwords (possibly at least once every 2-3 months), since no password is 100% secure. Another aspect not to be overlooked is that of using different passwords for each account: if you do that, even if they should unfortunately intercept one of your access keys, the security of other accounts would not be compromised.
+چگونه به فردی نادان تبدیل نشویم؟<<-->>ارزهای دیجیتال به حیات خود ادامه خواهند داد و عده ی بسیاری از این راه 
+ثروتمند خواهند شد، ولی اولین توصیه ای که به شما میکنیم این است:
+باید نادانی را کنار بگذارید! 
+درست است که در سالهای آینده افراد زیادی با ارزهای دیجیتال، میلیونر و 
+میلیاردر خواهند شد و داستانهای زیادی از این افراد خواهید شنید و احتمال 
+دارد که شما نیز یکی از این افراد باشید (زیرا در حال خواندن این کتاب هستید) و این نشان میدهد از خیلی از افراد جامعه جلوترید!( 
+حتی اظهارات غیرواقع بینانه ی برخی از افراد که گفتهان د قیمت بیتکوین در 
+سال 2020 به 50 هزار دالر و در سال 2025 به 100 هزار دلار یا حتی 1 میلیون دلار
+میرسد، غیرممکن نیست.
+ ارزهای دیجیتال دیگری، خارج از تصور افراد رشد چشمگیری خواهند کرد، با 
+این حال باید نادانی را کنار بگذارید...
+نادانی چیست؟ نادانی این است که حتی بسیاری از افراد باهوش و باتجربه، 
+هوش و هواسشان را از دست بدهند و تصور کنند که در بازار ارزهای دیجیتال 
+همه ارزها رشد خواهند کرد و به محض دیدن یک نمودار صعودی، به دلیل ترس 
+از دست دادن فرصت (FOMO )دست به اقداماتی زیانبار بزنند. 
+ارزهای دیجیتال، سیر تکامل طبیعی پول
+ارزهای دیجیتال فرصتی استثنایی هستند که شاید در عمرتان یکبار شاهد آنها 
+باشید اما ما میخواهیم تا حداکثر توان، خوانندگان این کتاب را از افتادن در دام 
+هیجانات این بازار بازداریم.
+اعتقاد داریم که افراد زیادی در سطح گسترده، اشتباهات وحشتناکی در این بازار 
+مرتکب خواهند شد.
+حقیقت تلخی که باید آنرا بپذیرید این است که 98 درصد از ارزهای دیجیتال 
+که امروز وجود دارند کالهبردار هستند و یا اینکه از بین خواهند رفت. اما قبل 
+از اینکه با عجله وارد حسابتان شوید و هرچه ارز دیجیتال جمع آوری کردهاید 
+بفروشید، این کتاب را با دقت بخوانید و حتی اگر الزم است چندبار کتاب را 
+بخوانید تا همه چیز را متوجه شوید.
+این کتاب به شما کمک خواهد کرد تا چیکده و اصول مهم ارزهای دیجیتال را 
+درک کنید و در برابر سایر افراد، از دانش و آگاهی بیشتری برخوردار شوید. 
+با خواندن این کتاب به توانایی تشخیص ارزهای کلاهبردار(Scam )از ارزهای 
+خوب و سالم دست خواهید یافت و وقتی به این درک برسید، 98 درصد از 
+چیزهایی که در فضای ارزهای دیجیتال رخ میدهد را نادیده خواهید گرفت و به 
+این ترتیب در این حوزه گسترده، نگرانی کمتری خواهید داشت.

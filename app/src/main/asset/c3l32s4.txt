@@ -1,0 +1,1 @@
+How to connect to a VPN<<-->>Many providers offer a smartphone app that allows easy access from mobile devices. If this is not the case, you can still configure OpenVPN for Android in a similar way to what you do with a PC.

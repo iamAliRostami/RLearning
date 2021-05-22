@@ -1,1 +1,3 @@
-Password Manager<<-->>Passwords of this type, however, can be very difficult to remember and are likely to be forgotten after the first use. It is therefore necessary to rely on some tool to help our memory. By discarding the conventional post-it, which are easy to lose and can be found by bad guys, you can make good use of so-called password managers, or special programs that, like a sort of "virtual safe", store the passwords of their accounts. Using a password manager has a double benefit: first, the passwords are kept safe (and not a little!) And, other important aspect, we do not have the problem of remembering all the other passwords because you can open these "virtual safes", remembering only one main password.
+حقیقت تلخ<<-->>بگذارید از پایه و اساس آغاز کنم و حقیقتی تلخ را به شما بگویم:
+98 درصد از ارزهای دیجیتال کنونی یا اسکم هستند یا در آینده نزدیک از بین 
+میروند.

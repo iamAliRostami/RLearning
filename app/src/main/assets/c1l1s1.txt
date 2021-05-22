@@ -1,2 +1,8 @@
-Introduction<<-->>We continuously entrust more and more information to our social networks, considering them inviolable places thanks to the protection offered by passwords. However, they are only keywords and the bad guys, given enough time, could discover them and steal our data. Many still use as a password the name of their girlfriend or that of their pet and the most unwary use the timeless sequence "123456" (which is the password most used in recent years). Discovering such passwords is a breeze even for a novice hacker.
- The first step to protect your online privacy is therefore the creation of a secure password, a password that can not be discovered by a program or a person in a short space of time.
+پیشگفتار<<-->>ارزهای دیجیتال با رشد قیمت بیتکوین به نزدیک 20 هزار دلار در اواخر سال 
+2017 میلادی(آذر و دیماه 96 )توسط بسیاری از افراد را جلب کرد، با این حال، 
+بیتکوین که اولین ارز دیجیتال در رسته خود است در سال 2009 میلادی ایجاد 
+شده و پس از آن ارزهای دیگری وارد بازار شده اند.
+با شناخته‌‌شدن این ارزها، افرادی به هوای کسب سود و عدهی بیشماری سودجو 
+و کلاهبردار)مانند هر زمینه جدید دیگری( به سمت این حوزه آمدند. به همین 
+دلیل و به دلیل نقش گسترده ای که این ارزها در آینده ایفا خواهند کرد، آگاهی 
+یافتن از ارزهای دیجیتال اهمیت زیادی دارد.

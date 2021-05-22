@@ -23,6 +23,5 @@
         android:layout_below="@+id/text_view_course_title"
         android:layout_marginRight="@dimen/low_dp"
         android:layout_marginLeft="@dimen/low_dp"
-        android:padding="@dimen/medium_dp"
         tools:listitem="@layout/item_lesson_h" />
 </RelativeLayout>

@@ -1,0 +1,4 @@
+How to defend against viruses<<-->>1) Limit the exchange of .EXE, .COM, .OVR, .OVL, .SYS, .DOC, .XLS and system files (.SYS) between computers on the network and avoid using network servers as working environments .
+2) Reduce the use of shareware and public domain programs if their origin is unknown.
+3) Do not insert your "system disk" in another computer if not in "write protection" condition and never add data or files to floppies containing original programs.
+4) Never run programs of unknown origin. If you do, use a scanning antivirus program to detect the presence of viruses.

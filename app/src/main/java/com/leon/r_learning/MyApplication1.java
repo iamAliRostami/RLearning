@@ -9,19 +9,19 @@ import androidx.multidex.MultiDex;
 import es.dmoral.toasty.Toasty;
 
 
-public class MyApplication extends Application {
+public class MyApplication1 extends Application {
     public static final String FONT_NAME = "font/iranian_sans.ttf";
     public static final int TOAST_TEXT_SIZE = 20;
     public static final int LESSON_NUMBER = 3;
     public static final int COURSE_NUMBER = 4;
     public static final int[][] SECTION_NUMBER = {{4}, {3}, {4, 4}};
     public static final String[] COURSES = {
-            "پیشگفتار",
+            "Key Concepts",
             "Cyber Attacks",
             "Privacy"
     };
     public static final String[][] LESSONS = {
-            {"پیشگفتار"},
+            {"Passwords"},
             {"Viruses"},
             {"GDPR", "VPN"}
     };
@@ -49,7 +49,7 @@ public class MyApplication extends Application {
         appContext = getApplicationContext();
         Toasty.Config.getInstance()
                 .tintIcon(true).setToastTypeface(Typeface.createFromAsset(appContext.getAssets(),
-                MyApplication.FONT_NAME))
+                MyApplication1.FONT_NAME))
                 .setTextSize(TOAST_TEXT_SIZE)
                 .allowQueue(true).apply();
         super.onCreate();
